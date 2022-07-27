@@ -1,5 +1,6 @@
 import { Component } from 'react'
 import Hero from './components/Hero'
+import Projects from './components/Projects'
 import Skills from './components/Skills'
 
 export default class App extends Component {
@@ -17,6 +18,7 @@ export default class App extends Component {
 
                 <div className='container w-[90%]'>
                     <Skills />
+                    <Projects />
                 </div>
             </div>
         )

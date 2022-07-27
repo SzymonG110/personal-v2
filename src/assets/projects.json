@@ -1,0 +1,33 @@
+{
+    "avatars": {
+        "SzymonG110#8841": "https://cdn.discordapp.com/avatars/548255235823501322/a_03c9a3316860945e9eddfc6ec0f3cd51.gif"
+    },
+
+    "langs": {
+
+        "TypeScript": "#3178C6"
+
+    },
+    
+    "projects": [
+        {
+            "public": true,
+            "title": "Personal",
+            "lang": "TypeScript",
+            "license": "MIT License",
+            "authors": [
+                "SzymonG110#8841"
+            ],
+            "links": [
+                {
+                    "type": "Strona",
+                    "url": "https://szymon.ml/"
+                },
+                {
+                    "type": "GitHub",
+                    "url": "https://github.com/SzymonG110/personal"
+                }
+            ]
+        }
+    ]
+}
