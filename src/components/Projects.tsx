@@ -35,6 +35,7 @@ export default class Projects extends Component {
             })
         })
 
+
         return (
             data.map(d => <ProjectCard authors={d.authors} language={d.language} license={d.license} links={d.links} public={d.public} title={d.title} />)
         )

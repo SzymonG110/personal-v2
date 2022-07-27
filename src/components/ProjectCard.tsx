@@ -39,7 +39,7 @@ export default class ProjectCard extends Component<Props, Readonly<{}>> {
 
     avatars(): JSX.Element | undefined {
 
-        for (const author of this.props.authors)
+        for (const author of this.props.authors) {
             return (
                 <div className='inline-flex -space-x-3'>
                     <div className="group relative">
@@ -48,6 +48,7 @@ export default class ProjectCard extends Component<Props, Readonly<{}>> {
                     </div>
                 </div>
             )
+        }
 
     }
 

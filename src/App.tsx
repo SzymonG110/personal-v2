@@ -4,6 +4,7 @@ import Projects from './components/Projects'
 import Skills from './components/Skills'
 import AOS from 'aos'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 export default class App extends Component {
 
@@ -29,6 +30,12 @@ export default class App extends Component {
                     <Skills />
                     <Projects />
                     <Contact />
+                </div>
+
+                <div className='bg-[#343639]'>
+                    <div className='container h-full'>
+                        <Footer />
+                    </div>
                 </div>
             </div>
         )
