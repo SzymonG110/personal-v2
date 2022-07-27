@@ -15,7 +15,7 @@ export default class App extends Component {
                     </div>
                 </div>
 
-                <div className='container'>
+                <div className='container w-[90%]'>
                     <Skills />
                 </div>
             </div>

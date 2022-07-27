@@ -1,0 +1,21 @@
+{
+    "langs": [
+
+        {
+            "name": "TypeScript",
+            "url": "https://www.typescriptlang.org/",
+            "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+        }
+
+    ],
+
+    "tools": [
+
+        {
+            "name": "Microsoft Azure",
+            "url": "https://azure.microsoft.com/en-in/",
+            "img": "https://cloudpartners.pl/wp-content/uploads/2021/09/azure.png"
+        }
+
+    ]
+}
