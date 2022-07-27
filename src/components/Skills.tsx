@@ -1,9 +1,10 @@
-import { Component, Fragment } from 'react'
+import { Component } from 'react'
 import skills from '../assets/skills.json'
+import SkillCard from './SkillCard'
 
 export default class Skills extends Component {
 
-    format(type: 'langs' | 'tools') {
+    format(type: 'langs' | 'tools'): JSX.Element[] {
         const json = skills[type]
 
         return json.map(skill => <img className='h-8' src={skill.img} />)
@@ -16,15 +17,8 @@ export default class Skills extends Component {
                 <h1 className='text-center text-[26px] font-bold mb-8 mt-3' id='skills'>Umiejętności</h1>
 
                 <div className='md:flex md:justify-around font-semibold'>
-                    <div className='mb-6 md:mb-0 bg-[#3C3E42] md:w-[45%] rounded-md p-4'>
-                        Języki
-                        {this.format('langs')}
-                    </div>
-
-                    <div className='bg-[#3C3E42] md:w-[45%] rounded-md p-2'>
-                        Narzędzia i aplikacje
-                        {this.format('tools')}
-                    </div>
+                    <SkillCard title="Języki" skills={this.format('langs')} />
+                    <SkillCard title="Narzędzia i aplikacje" skills={this.format('tools')} />
                 </div>
 
             </div>
