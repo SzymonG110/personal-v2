@@ -37,18 +37,12 @@ export default class ProjectCard extends Component<Props, Readonly<{}>> {
 
     }
 
-    avatars(): JSX.Element | undefined {
-
-        for (const author of this.props.authors) {
-            return (
-                <div className='inline-flex -space-x-3'>
-                    <div className="group relative">
-                        <img src={author.avtarURL} className='rounded-full h-8' />
-                        <p className="hidden absolute group-hover:block bg-white left-3 -top-4 text-black px-2 py-1 rounded-2xl">{author.name}</p>
-                    </div>
-                </div>
-            )
-        }
+    avatars(): JSX.Element[] {
+        return this.props.authors.map(author =>
+            <div className="group relative">
+                <img src={author.avtarURL} className='rounded-full h-8' />
+                <p className="hidden absolute group-hover:block bg-white left-3 -top-4 text-black px-2 py-1 rounded-2xl z-50">{author.name}</p>
+            </div >)
 
     }
 
@@ -103,7 +97,9 @@ export default class ProjectCard extends Component<Props, Readonly<{}>> {
                 </div>
                 <div>
                     <h4 className="pb-1">Autorzy</h4>
-                    {this.avatars()}
+                    <div className='inline-flex -space-x-3'>
+                        {this.avatars()}
+                    </div>
                 </div>
 
                 {this.links()}
