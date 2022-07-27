@@ -46,11 +46,10 @@ export default class Projects extends Component {
         return (
             <div className='mt-10' id='projects'>
                 <h1 className='text-center text-[26px] font-bold mb-8' id='skills'>Projekty</h1>
-
-                <div className='md:flex md:justify-around'>
+                <div className='md:grid md:grid-cols-3 md:gap-3 md:place-content-center space-y-2 md:space-y-0'>
                     {this.format()}
                 </div>
-            </div >
+            </div>
         )
 
     }

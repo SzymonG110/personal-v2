@@ -83,22 +83,22 @@ export default class ProjectCard extends Component<Props, Readonly<{}>> {
     render() {
 
         return (
-            <div className='bg-[#3C3E42] md:w-[40%] rounded-md px-3 py-2 font-semibold relative'>
+            <div className='bg-[#3C3E42] rounded-md px-3 py-2 font-semibold relative'>
 
                 {this.lock()}
 
                 <h3 className='text-xl'>{this.props.title}</h3>
                 <div>
-                    <h5 className='inline-flex items-center text-xs'>
-                        <h6 className='bg-[#ffffff] h-3 w-3 rounded-full flex justify-center items-center mr-1'>
-                            <h6 className={`bg-[${this.props.language.color}] h-2 w-2 rounded-full`} />
-                        </h6>
+                    <h4 className='flex items-center text-xs'>
+                        <div className='bg-[#ffffff] h-3 w-3 rounded-full flex justify-center items-center mr-1'>
+                            <div className={`bg-[${this.props.language.color}] h-2 w-2 rounded-full`} />
+                        </div>
                         {this.props.language.name}
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-3 mr-1" viewBox="0 0 20 20" fill="currentColor">
                             <path fillRule="evenodd" d="M10 2a1 1 0 011 1v1.323l3.954 1.582 1.599-.8a1 1 0 01.894 1.79l-1.233.616 1.738 5.42a1 1 0 01-.285 1.05A3.989 3.989 0 0115 15a3.989 3.989 0 01-2.667-1.019 1 1 0 01-.285-1.05l1.715-5.349L11 6.477V16h2a1 1 0 110 2H7a1 1 0 110-2h2V6.477L6.237 7.582l1.715 5.349a1 1 0 01-.285 1.05A3.989 3.989 0 015 15a3.989 3.989 0 01-2.667-1.019 1 1 0 01-.285-1.05l1.738-5.42-1.233-.617a1 1 0 01.894-1.788l1.599.799L9 4.323V3a1 1 0 011-1zm-5 8.274l-.818 2.552c.25.112.526.174.818.174.292 0 .569-.062.818-.174L5 10.274zm10 0l-.818 2.552c.25.112.526.174.818.174.292 0 .569-.062.818-.174L15 10.274z" clipRule="evenodd" />
                         </svg>
                         {this.props.license} License
-                    </h5>
+                    </h4>
                 </div>
                 <div>
                     <h4 className="pb-1">Autorzy</h4>

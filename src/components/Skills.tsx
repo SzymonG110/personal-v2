@@ -16,7 +16,7 @@ export default class Skills extends Component {
             <div>
                 <h1 className='text-center text-[26px] font-bold mb-8 mt-3' id='skills'>Umiejętności</h1>
 
-                <div className='md:flex md:justify-around font-semibold'>
+                <div className='md:flex md:justify-around font-semibold space-y-2'>
                     <SkillCard title="Języki" skills={this.format('langs')} />
                     <SkillCard title="Narzędzia i aplikacje" skills={this.format('tools')} />
                 </div>

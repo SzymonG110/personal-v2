@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
 import AOS from 'aos'
+import Contact from './components/Contact'
 
 export default class App extends Component {
 
@@ -27,6 +28,7 @@ export default class App extends Component {
                 <div className='container w-[90%]'>
                     <Skills />
                     <Projects />
+                    <Contact />
                 </div>
             </div>
         )

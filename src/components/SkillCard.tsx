@@ -5,7 +5,7 @@ interface Props {
     skills: JSX.Element[]
 }
 
-export default class SkilltCard extends Component<Props, Readonly<{}>> {
+export default class SkillCard extends Component<Props, Readonly<{}>> {
 
     render() {
         return (
