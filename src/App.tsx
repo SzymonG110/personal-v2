@@ -19,7 +19,7 @@ export default class App extends Component {
             <div className='font-montserrat text-white min-h-screen bg-[#212121]'>
 
                 <div className='h-screen bg-[#303235]'>
-                    <div className='container h-[100%]'>
+                    <div className='container h-full'>
                         <Hero />
                     </div>
                 </div>
