@@ -2,8 +2,16 @@ import { Component } from 'react'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
+import AOS from 'aos'
 
 export default class App extends Component {
+
+    componentDidMount() {
+
+        AOS.init()
+        AOS.refresh()
+
+    }
 
     render() {
 
