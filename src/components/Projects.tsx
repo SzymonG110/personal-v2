@@ -1,4 +1,4 @@
-import { Component, ReactNode } from 'react'
+import { Component } from 'react'
 import projects from '../assets/projects.json'
 import ProjectCard, { Props } from './ProjectCard'
 
@@ -41,11 +41,11 @@ export default class Projects extends Component {
 
     }
 
-    render() {
+    render(): JSX.Element {
 
         return (
             <div className='mt-10' id='projects'>
-                <h1 className='text-center text-[26px] font-bold mb-8' id='skills'>Projekty</h1>
+                <h1 className='text-center text-[26px] font-bold mb-8'>Projekty</h1>
                 <div className='md:grid md:grid-cols-3 md:gap-3 md:place-content-center space-y-2 md:space-y-0 auto-rows-max'>
                     {this.format()}
                 </div>

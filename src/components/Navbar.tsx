@@ -2,7 +2,7 @@ import { Component } from 'react'
 
 export default class Navbar extends Component {
 
-    render() {
+    render(): JSX.Element {
 
         return (
             <div className='flex justify-end items-center pt-3 font-extrabold gap-3'>

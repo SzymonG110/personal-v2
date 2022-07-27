@@ -10,11 +10,11 @@ export default class Skills extends Component {
         return json.map(skill => <img className='h-8' src={skill.img} />)
     }
 
-    render() {
+    render(): JSX.Element {
 
         return (
-            <div className='container max-sm'>
-                <h1 className='text-center text-[26px] font-bold mb-8 mt-3' id='skills'>Umiejętności</h1>
+            <div className='container max-sm' id='skills'>
+                <h1 className='text-center text-[26px] font-bold mb-8 mt-3'>Umiejętności</h1>
 
                 <div className='md:grid md:grid-cols-2 md:gap-40 md:place-content-center space-y-2 md:space-y-0 auto-rows-max font-semibold'>
                     <SkillCard title="Języki" skills={this.format('langs')} />

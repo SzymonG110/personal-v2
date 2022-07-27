@@ -80,7 +80,7 @@ export default class ProjectCard extends Component<Props, Readonly<{}>> {
 
     }
 
-    render() {
+    render(): JSX.Element {
 
         return (
             <div className='bg-[#3C3E42] rounded-md px-3 py-2 font-semibold relative'>

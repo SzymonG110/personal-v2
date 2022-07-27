@@ -7,7 +7,7 @@ interface Props {
 
 export default class SkillCard extends Component<Props, Readonly<{}>> {
 
-    render() {
+    render(): JSX.Element {
         return (
             <div className='bg-[#3C3E42] rounded-md p-3'>
                 <span className="pb-1 block">{this.props.title}</span>

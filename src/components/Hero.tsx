@@ -4,7 +4,7 @@ import img from '../assets/mac-vsc.png'
 
 export default class Hero extends Component {
 
-    render() {
+    render(): JSX.Element {
 
         return (
             <div className='h-full'>
