@@ -9,9 +9,11 @@ export default class SkillCard extends Component<Props, Readonly<{}>> {
 
     render() {
         return (
-            <div className='bg-[#3C3E42] md:w-[45%] rounded-md p-3'>
+            <div className='bg-[#3C3E42] rounded-md p-3'>
                 <span className="pb-1 block">{this.props.title}</span>
-                {this.props.skills}
+                <div className='flex flex-wrap space-x-1 space-y-1'>
+                    {this.props.skills}
+                </div>
             </div>
         )
     }
