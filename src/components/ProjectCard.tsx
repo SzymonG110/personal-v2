@@ -64,7 +64,7 @@ export default class ProjectCard extends Component<Props, Readonly<{}>> {
             </svg>
 
         return this.props.links.map(link =>
-            <a className='bg-[#A8A8A8] text-black rounded-xl inline-flex items-center px-3 py-1 hover:bg-[#dadada] duration-500' href={link.url}>
+            <a className='bg-[#A8A8A8] text-black rounded-xl inline-flex items-center px-3 py-1 hover:bg-[#dadada] duration-500' href={link.url} target='_blank'>
                 {link.name === 'Strona' && Page}
                 {link.name === 'Discord' && Discord}
                 {link.name === 'GitHub' && GitHub}
