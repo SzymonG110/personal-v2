@@ -77,7 +77,7 @@ export default class ProjectCard extends Component<Props, Readonly<{}>> {
     render(): JSX.Element {
 
         return (
-            <div className='bg-[#3C3E42] rounded-md px-3 py-2 font-semibold relative'>
+            <div className='bg-[#3C3E42] rounded-md px-3 py-2 font-semibold relative' data-aos='zoom-out-down'>
 
                 {this.lock()}
 
