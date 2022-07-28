@@ -2,13 +2,17 @@
     "avatars": {
 
         "SzymonG110#8841": "https://cdn.discordapp.com/avatars/548255235823501322/a_03c9a3316860945e9eddfc6ec0f3cd51.gif",
-        "rkubapl#0556": "https://cdn.discordapp.com/avatars/494017032283619329/4c231a6e4a07f203f22351dc2314d263.png"
+        "rkubapl#0556": "https://cdn.discordapp.com/avatars/494017032283619329/4c231a6e4a07f203f22351dc2314d263.png",
+        "Mateusz#4711": "https://cdn.discordapp.com/avatars/395266229436153868/a_4f8b6f09e9fc953e57d3f73aa69ff3f3.gif",
+        "Dezet#2715": "https://cdn.discordapp.com/avatars/682632445396254882/7bf58cc8e67f5fb23e55e8147d07b199.png",
+        "Pacio#1414": "https://cdn.discordapp.com/avatars/589457062971572225/a_04786e52ece2967ab53f66c7220fc585.gif"
         
     },
 
     "langs": {
 
-        "TypeScript": "#3178C6"
+        "TypeScript": "#3178C6",
+        "JavaScript": "#F0DB4F"
 
     },
     
@@ -52,6 +56,64 @@
                     "url": "https://github.com/SzymonG110/personal-v2"
                 }
             ]
+        },
+
+        {
+            "public": false,
+            "title": "Xibbly",
+            "lang": "TypeScript",
+            "license": "MIT",
+            "authors": [
+                "SzymonG110#8841",
+                "Mateusz#4711"
+            ],
+            "links": [
+                {
+                    "name": "GitHub",
+                    "url": "https://github.com/Xibbly"
+                },
+
+                {
+                    "name": "Discord",
+                    "url": "https://discord.gg/89gxvAP"
+                }
+            ]
+        },
+
+        {
+            "public": true,
+            "title": "DiscordWebhookPost",
+            "lang": "TypeScript",
+            "license": "NONE",
+            "authors": [
+                "SzymonG110#8841"
+            ],
+            "links": [
+                {
+                    "name": "GitHub",
+                    "url": "https://github.com/SzymonG110/DiscordWebhookPost"
+                }
+            ]
+        },
+
+        {
+            "public": false,
+            "title": "DBP Pomocnik",
+            "lang": "JavaScript",
+            "license": "ISC",
+            "authors": [
+                "Dezet#2715",
+                "Mateusz#4711",
+                "SzymonG110#8841",
+                "Pacio#1414"
+            ],
+            "links": [
+                {
+                    "name": "Discord",
+                    "url": "https://discord.gg/d7u7bsjzQ5"
+                }
+            ]
+
         }
     ]
 }
