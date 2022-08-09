@@ -132,6 +132,12 @@
         },
 
         {
+            "name": "TailWindCSS",
+            "url": "https://tailwindcss.com/",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"
+        },
+
+        {
             "name": "Font Awesome",
             "url": "https://fontawesome.com/",
             "img": "https://i0.wp.com/blog.fontawesome.com/wp-content/uploads/2019/07/avatar-blue-scale-0.5@2x.png"
