@@ -1,6 +1,6 @@
 import { Component } from 'react'
 import Navbar from './Navbar'
-import img from '../assets/mac-vsc.png'
+import img from '../assets/mac-intelij.png'
 
 export default class Hero extends Component {
 

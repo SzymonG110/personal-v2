@@ -113,7 +113,22 @@
                     "url": "https://discord.gg/d7u7bsjzQ5"
                 }
             ]
+        },
 
+        {
+            "public": true,
+            "title": "szkola-testPlatform",
+            "lang": "TypeScript",
+            "license": "MIT",
+            "authors": [
+                "SzymonG110#8841"
+            ],
+            "links": [
+                {
+                    "name": "GitHub",
+                    "url": "https://github.com/SzymonG110/szkola-testPlatform"
+                }
+            ]
         }
     ]
 }
