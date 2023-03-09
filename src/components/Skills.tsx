@@ -7,7 +7,7 @@ export default class Skills extends Component {
     format(type: 'langs' | 'tools'): JSX.Element[] {
         const json = skills[type]
 
-        return json.map(skill => <img className='h-8' src={skill.img} />)
+        return json.map(skill => <img className='h-8' src={skill.img} alt={skill.name} />)
     }
 
     render(): JSX.Element {
